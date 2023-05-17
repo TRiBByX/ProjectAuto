@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt upgrade
-sudo apti -y install vim i3 python3-pip autojump git htop
+sudo apt -y install vim i3 python3-pip autojump git htop
 
 
 pip3 install ipython
