@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
 sudo apt -y install vim i3 python3-pip autojump git htop docker docker-compose
 
 # Docker post install
