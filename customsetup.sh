@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt -y install vim i3 python3-pip autojump git htop docker docker-compose
+sudo apt -y install vim i3 python3-pip autojump git htop docker docker-compose net-tools
 
 # Docker post install
 sudo groudadd docker
