@@ -9,6 +9,7 @@ sudo groudadd docker
 sudo usermod -aG docker $USER
 
 pip3 install ipython
+echo "\n\n# Custom settings - Added by setup script" >> ~/.bashrc
 echo "alias apt='apt -y'" >> ~/.bashrc
 echo ". /usr/share/autojump/autojump.sh" >> ~/.bashrc
 
